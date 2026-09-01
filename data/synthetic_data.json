@@ -1,0 +1,978 @@
+{
+  "tms": [
+    {
+      "task_id": "M-ENG-01",
+      "department": "Engineering",
+      "corridor_id": "C101",
+      "asset_id": "TRK-C101-01",
+      "task_type": "Track Relaying & Grinding",
+      "defect_severity": 9,
+      "criticality": 10,
+      "urgency": 9,
+      "failure_risk": 9,
+      "overdue_days": 12,
+      "estimated_duration": 120,
+      "required_resources": "Heavy Tamper, Track Relay Gang",
+      "preferred_window": "10:00-12:00"
+    },
+    {
+      "task_id": "M-ENG-02",
+      "department": "Engineering",
+      "corridor_id": "C104",
+      "asset_id": "ENG-C104-24",
+      "task_type": "Sleeper Replacement",
+      "defect_severity": 5,
+      "criticality": 4,
+      "urgency": 4,
+      "failure_risk": 3,
+      "overdue_days": 3,
+      "estimated_duration": 60,
+      "required_resources": "Gang 04",
+      "preferred_window": "16:00-17:00"
+    },
+    {
+      "task_id": "M-ENG-03",
+      "department": "Engineering",
+      "corridor_id": "C102",
+      "asset_id": "ENG-C102-13",
+      "task_type": "Sleeper Replacement",
+      "defect_severity": 4,
+      "criticality": 4,
+      "urgency": 9,
+      "failure_risk": 10,
+      "overdue_days": 0,
+      "estimated_duration": 90,
+      "required_resources": "Gang 04",
+      "preferred_window": "14:00-15:30"
+    },
+    {
+      "task_id": "M-ENG-04",
+      "department": "Engineering",
+      "corridor_id": "C102",
+      "asset_id": "ENG-C102-67",
+      "task_type": "Ballast Tamping",
+      "defect_severity": 1,
+      "criticality": 3,
+      "urgency": 7,
+      "failure_risk": 6,
+      "overdue_days": 8,
+      "estimated_duration": 90,
+      "required_resources": "Rail Crane B",
+      "preferred_window": "08:00-09:30"
+    },
+    {
+      "task_id": "M-ENG-05",
+      "department": "Engineering",
+      "corridor_id": "C102",
+      "asset_id": "ENG-C102-21",
+      "task_type": "Joint Inspection",
+      "defect_severity": 2,
+      "criticality": 6,
+      "urgency": 6,
+      "failure_risk": 10,
+      "overdue_days": 8,
+      "estimated_duration": 180,
+      "required_resources": "Track Gang A",
+      "preferred_window": "06:00-09:00"
+    },
+    {
+      "task_id": "M-ENG-06",
+      "department": "Engineering",
+      "corridor_id": "C103",
+      "asset_id": "ENG-C103-20",
+      "task_type": "Ballast Tamping",
+      "defect_severity": 10,
+      "criticality": 6,
+      "urgency": 10,
+      "failure_risk": 4,
+      "overdue_days": 2,
+      "estimated_duration": 90,
+      "required_resources": "Rail Crane B",
+      "preferred_window": "06:00-07:30"
+    },
+    {
+      "task_id": "M-ENG-07",
+      "department": "Engineering",
+      "corridor_id": "C102",
+      "asset_id": "ENG-C102-39",
+      "task_type": "Sleeper Replacement",
+      "defect_severity": 7,
+      "criticality": 5,
+      "urgency": 8,
+      "failure_risk": 6,
+      "overdue_days": 5,
+      "estimated_duration": 120,
+      "required_resources": "Tamper Machine 02",
+      "preferred_window": "11:00-13:00"
+    },
+    {
+      "task_id": "M-ENG-08",
+      "department": "Engineering",
+      "corridor_id": "C104",
+      "asset_id": "ENG-C104-44",
+      "task_type": "Sleeper Replacement",
+      "defect_severity": 10,
+      "criticality": 3,
+      "urgency": 9,
+      "failure_risk": 4,
+      "overdue_days": 5,
+      "estimated_duration": 180,
+      "required_resources": "Rail Crane B",
+      "preferred_window": "13:00-16:00"
+    },
+    {
+      "task_id": "M-ENG-09",
+      "department": "Engineering",
+      "corridor_id": "C104",
+      "asset_id": "ENG-C104-98",
+      "task_type": "Rail Welding",
+      "defect_severity": 6,
+      "criticality": 1,
+      "urgency": 4,
+      "failure_risk": 1,
+      "overdue_days": 10,
+      "estimated_duration": 120,
+      "required_resources": "Track Gang A",
+      "preferred_window": "12:00-14:00"
+    }
+  ],
+  "smms": [
+    {
+      "task_id": "M-SNT-01",
+      "department": "S&T",
+      "corridor_id": "C101",
+      "asset_id": "SIG-C101-04",
+      "task_type": "Interlocking & Point Machine Calibration",
+      "defect_severity": 8,
+      "criticality": 9,
+      "urgency": 8,
+      "failure_risk": 8,
+      "overdue_days": 5,
+      "estimated_duration": 90,
+      "required_resources": "S&T Inspection Van, Signal Engineers",
+      "preferred_window": "10:00-11:30"
+    },
+    {
+      "task_id": "M-SNT-10",
+      "department": "S&T",
+      "corridor_id": "C102",
+      "asset_id": "S&T-C102-82",
+      "task_type": "Point Motor Overhaul",
+      "defect_severity": 4,
+      "criticality": 8,
+      "urgency": 7,
+      "failure_risk": 8,
+      "overdue_days": 4,
+      "estimated_duration": 90,
+      "required_resources": "Signal Team 1",
+      "preferred_window": "10:00-11:30"
+    },
+    {
+      "task_id": "M-SNT-11",
+      "department": "S&T",
+      "corridor_id": "C104",
+      "asset_id": "S&T-C104-81",
+      "task_type": "Point Motor Overhaul",
+      "defect_severity": 10,
+      "criticality": 7,
+      "urgency": 10,
+      "failure_risk": 7,
+      "overdue_days": 11,
+      "estimated_duration": 90,
+      "required_resources": "Electronics Unit 3",
+      "preferred_window": "09:00-10:30"
+    },
+    {
+      "task_id": "M-SNT-12",
+      "department": "S&T",
+      "corridor_id": "C103",
+      "asset_id": "S&T-C103-21",
+      "task_type": "Signal Lamp Renewal",
+      "defect_severity": 2,
+      "criticality": 3,
+      "urgency": 3,
+      "failure_risk": 7,
+      "overdue_days": 2,
+      "estimated_duration": 180,
+      "required_resources": "Electronics Unit 3",
+      "preferred_window": "12:00-15:00"
+    },
+    {
+      "task_id": "M-SNT-13",
+      "department": "S&T",
+      "corridor_id": "C103",
+      "asset_id": "S&T-C103-77",
+      "task_type": "Point Motor Overhaul",
+      "defect_severity": 9,
+      "criticality": 1,
+      "urgency": 2,
+      "failure_risk": 9,
+      "overdue_days": 8,
+      "estimated_duration": 120,
+      "required_resources": "Signal Team 1",
+      "preferred_window": "16:00-18:00"
+    },
+    {
+      "task_id": "M-SNT-14",
+      "department": "S&T",
+      "corridor_id": "C103",
+      "asset_id": "S&T-C103-65",
+      "task_type": "Axle Counter Maintenance",
+      "defect_severity": 8,
+      "criticality": 1,
+      "urgency": 5,
+      "failure_risk": 9,
+      "overdue_days": 5,
+      "estimated_duration": 60,
+      "required_resources": "Electronics Unit 3",
+      "preferred_window": "14:00-15:00"
+    },
+    {
+      "task_id": "M-SNT-15",
+      "department": "S&T",
+      "corridor_id": "C103",
+      "asset_id": "S&T-C103-91",
+      "task_type": "Axle Counter Maintenance",
+      "defect_severity": 3,
+      "criticality": 6,
+      "urgency": 3,
+      "failure_risk": 9,
+      "overdue_days": 0,
+      "estimated_duration": 120,
+      "required_resources": "Telecom Tech Squad",
+      "preferred_window": "15:00-17:00"
+    },
+    {
+      "task_id": "M-SNT-16",
+      "department": "S&T",
+      "corridor_id": "C102",
+      "asset_id": "S&T-C102-24",
+      "task_type": "Point Motor Overhaul",
+      "defect_severity": 5,
+      "criticality": 4,
+      "urgency": 1,
+      "failure_risk": 4,
+      "overdue_days": 2,
+      "estimated_duration": 180,
+      "required_resources": "Signal Team 1",
+      "preferred_window": "07:00-10:00"
+    },
+    {
+      "task_id": "M-SNT-17",
+      "department": "S&T",
+      "corridor_id": "C104",
+      "asset_id": "S&T-C104-26",
+      "task_type": "Axle Counter Maintenance",
+      "defect_severity": 8,
+      "criticality": 9,
+      "urgency": 3,
+      "failure_risk": 5,
+      "overdue_days": 13,
+      "estimated_duration": 90,
+      "required_resources": "Electronics Unit 3",
+      "preferred_window": "09:00-10:30"
+    }
+  ],
+  "tdms": [
+    {
+      "task_id": "M-TRC-01",
+      "department": "Traction",
+      "corridor_id": "C101",
+      "asset_id": "OHE-C101-12",
+      "task_type": "OHE Catenary Cable Inspection & Repair",
+      "defect_severity": 9,
+      "criticality": 9,
+      "urgency": 9,
+      "failure_risk": 9,
+      "overdue_days": 8,
+      "estimated_duration": 120,
+      "required_resources": "OHE Tower Wagon, Overhead Linesmen",
+      "preferred_window": "11:00-13:00"
+    },
+    {
+      "task_id": "M-TRC-18",
+      "department": "Traction",
+      "corridor_id": "C103",
+      "asset_id": "TRA-C103-61",
+      "task_type": "Neutral Section Inspection",
+      "defect_severity": 8,
+      "criticality": 9,
+      "urgency": 8,
+      "failure_risk": 2,
+      "overdue_days": 7,
+      "estimated_duration": 60,
+      "required_resources": "Traction Linesmen B",
+      "preferred_window": "09:00-10:00"
+    },
+    {
+      "task_id": "M-TRC-19",
+      "department": "Traction",
+      "corridor_id": "C102",
+      "asset_id": "TRA-C102-85",
+      "task_type": "OHE Insulator Cleaning",
+      "defect_severity": 10,
+      "criticality": 4,
+      "urgency": 1,
+      "failure_risk": 2,
+      "overdue_days": 1,
+      "estimated_duration": 60,
+      "required_resources": "Tower Car 01",
+      "preferred_window": "09:00-10:00"
+    },
+    {
+      "task_id": "M-TRC-20",
+      "department": "Traction",
+      "corridor_id": "C103",
+      "asset_id": "TRA-C103-19",
+      "task_type": "OHE Insulator Cleaning",
+      "defect_severity": 5,
+      "criticality": 8,
+      "urgency": 4,
+      "failure_risk": 9,
+      "overdue_days": 4,
+      "estimated_duration": 180,
+      "required_resources": "Tower Car 01",
+      "preferred_window": "17:00-20:00"
+    },
+    {
+      "task_id": "M-TRC-21",
+      "department": "Traction",
+      "corridor_id": "C103",
+      "asset_id": "TRA-C103-62",
+      "task_type": "OHE Insulator Cleaning",
+      "defect_severity": 2,
+      "criticality": 2,
+      "urgency": 7,
+      "failure_risk": 6,
+      "overdue_days": 13,
+      "estimated_duration": 180,
+      "required_resources": "High Voltage Crew",
+      "preferred_window": "12:00-15:00"
+    },
+    {
+      "task_id": "M-TRC-22",
+      "department": "Traction",
+      "corridor_id": "C102",
+      "asset_id": "TRA-C102-96",
+      "task_type": "Substation Maintenance",
+      "defect_severity": 1,
+      "criticality": 7,
+      "urgency": 6,
+      "failure_risk": 2,
+      "overdue_days": 7,
+      "estimated_duration": 90,
+      "required_resources": "High Voltage Crew",
+      "preferred_window": "09:00-10:30"
+    },
+    {
+      "task_id": "M-TRC-23",
+      "department": "Traction",
+      "corridor_id": "C103",
+      "asset_id": "TRA-C103-27",
+      "task_type": "Transformer Check",
+      "defect_severity": 3,
+      "criticality": 5,
+      "urgency": 8,
+      "failure_risk": 4,
+      "overdue_days": 2,
+      "estimated_duration": 60,
+      "required_resources": "Tower Car 01",
+      "preferred_window": "13:00-14:00"
+    },
+    {
+      "task_id": "M-TRC-24",
+      "department": "Traction",
+      "corridor_id": "C104",
+      "asset_id": "TRA-C104-79",
+      "task_type": "Substation Maintenance",
+      "defect_severity": 2,
+      "criticality": 4,
+      "urgency": 3,
+      "failure_risk": 7,
+      "overdue_days": 15,
+      "estimated_duration": 90,
+      "required_resources": "Traction Linesmen B",
+      "preferred_window": "13:00-14:30"
+    },
+    {
+      "task_id": "M-TRC-25",
+      "department": "Traction",
+      "corridor_id": "C102",
+      "asset_id": "TRA-C102-31",
+      "task_type": "Transformer Check",
+      "defect_severity": 1,
+      "criticality": 7,
+      "urgency": 5,
+      "failure_risk": 8,
+      "overdue_days": 9,
+      "estimated_duration": 180,
+      "required_resources": "Tower Car 01",
+      "preferred_window": "12:00-15:00"
+    }
+  ],
+  "bdms": [
+    {
+      "block_request_id": "BR-ENG-01",
+      "task_id": "M-ENG-01",
+      "corridor_id": "C101",
+      "requested_start": "10:00",
+      "requested_end": "12:00",
+      "requested_duration": 120,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-SNT-01",
+      "task_id": "M-SNT-01",
+      "corridor_id": "C101",
+      "requested_start": "10:00",
+      "requested_end": "11:30",
+      "requested_duration": 90,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-TRC-01",
+      "task_id": "M-TRC-01",
+      "corridor_id": "C101",
+      "requested_start": "11:00",
+      "requested_end": "13:00",
+      "requested_duration": 120,
+      "department": "Traction"
+    },
+    {
+      "block_request_id": "BR-ENG-02",
+      "task_id": "M-ENG-02",
+      "corridor_id": "C104",
+      "requested_start": "16:00",
+      "requested_end": "17:00",
+      "requested_duration": 60,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-ENG-03",
+      "task_id": "M-ENG-03",
+      "corridor_id": "C102",
+      "requested_start": "14:00",
+      "requested_end": "15:30",
+      "requested_duration": 90,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-ENG-04",
+      "task_id": "M-ENG-04",
+      "corridor_id": "C102",
+      "requested_start": "08:00",
+      "requested_end": "09:30",
+      "requested_duration": 90,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-ENG-05",
+      "task_id": "M-ENG-05",
+      "corridor_id": "C102",
+      "requested_start": "06:00",
+      "requested_end": "09:00",
+      "requested_duration": 180,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-ENG-06",
+      "task_id": "M-ENG-06",
+      "corridor_id": "C103",
+      "requested_start": "06:00",
+      "requested_end": "07:30",
+      "requested_duration": 90,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-ENG-07",
+      "task_id": "M-ENG-07",
+      "corridor_id": "C102",
+      "requested_start": "11:00",
+      "requested_end": "13:00",
+      "requested_duration": 120,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-ENG-08",
+      "task_id": "M-ENG-08",
+      "corridor_id": "C104",
+      "requested_start": "13:00",
+      "requested_end": "16:00",
+      "requested_duration": 180,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-ENG-09",
+      "task_id": "M-ENG-09",
+      "corridor_id": "C104",
+      "requested_start": "12:00",
+      "requested_end": "14:00",
+      "requested_duration": 120,
+      "department": "Engineering"
+    },
+    {
+      "block_request_id": "BR-S&T-10",
+      "task_id": "M-SNT-10",
+      "corridor_id": "C102",
+      "requested_start": "10:00",
+      "requested_end": "11:30",
+      "requested_duration": 90,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-S&T-11",
+      "task_id": "M-SNT-11",
+      "corridor_id": "C104",
+      "requested_start": "09:00",
+      "requested_end": "10:30",
+      "requested_duration": 90,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-S&T-12",
+      "task_id": "M-SNT-12",
+      "corridor_id": "C103",
+      "requested_start": "12:00",
+      "requested_end": "15:00",
+      "requested_duration": 180,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-S&T-13",
+      "task_id": "M-SNT-13",
+      "corridor_id": "C103",
+      "requested_start": "16:00",
+      "requested_end": "18:00",
+      "requested_duration": 120,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-S&T-14",
+      "task_id": "M-SNT-14",
+      "corridor_id": "C103",
+      "requested_start": "14:00",
+      "requested_end": "15:00",
+      "requested_duration": 60,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-S&T-15",
+      "task_id": "M-SNT-15",
+      "corridor_id": "C103",
+      "requested_start": "15:00",
+      "requested_end": "17:00",
+      "requested_duration": 120,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-S&T-16",
+      "task_id": "M-SNT-16",
+      "corridor_id": "C102",
+      "requested_start": "07:00",
+      "requested_end": "10:00",
+      "requested_duration": 180,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-S&T-17",
+      "task_id": "M-SNT-17",
+      "corridor_id": "C104",
+      "requested_start": "09:00",
+      "requested_end": "10:30",
+      "requested_duration": 90,
+      "department": "S&T"
+    },
+    {
+      "block_request_id": "BR-TRA-18",
+      "task_id": "M-TRC-18",
+      "corridor_id": "C103",
+      "requested_start": "09:00",
+      "requested_end": "10:00",
+      "requested_duration": 60,
+      "department": "Traction"
+    },
+    {
+      "block_request_id": "BR-TRA-19",
+      "task_id": "M-TRC-19",
+      "corridor_id": "C102",
+      "requested_start": "09:00",
+      "requested_end": "10:00",
+      "requested_duration": 60,
+      "department": "Traction"
+    },
+    {
+      "block_request_id": "BR-TRA-20",
+      "task_id": "M-TRC-20",
+      "corridor_id": "C103",
+      "requested_start": "17:00",
+      "requested_end": "20:00",
+      "requested_duration": 180,
+      "department": "Traction"
+    },
+    {
+      "block_request_id": "BR-TRA-21",
+      "task_id": "M-TRC-21",
+      "corridor_id": "C103",
+      "requested_start": "12:00",
+      "requested_end": "15:00",
+      "requested_duration": 180,
+      "department": "Traction"
+    },
+    {
+      "block_request_id": "BR-TRA-22",
+      "task_id": "M-TRC-22",
+      "corridor_id": "C102",
+      "requested_start": "09:00",
+      "requested_end": "10:30",
+      "requested_duration": 90,
+      "department": "Traction"
+    },
+    {
+      "block_request_id": "BR-TRA-23",
+      "task_id": "M-TRC-23",
+      "corridor_id": "C103",
+      "requested_start": "13:00",
+      "requested_end": "14:00",
+      "requested_duration": 60,
+      "department": "Traction"
+    },
+    {
+      "block_request_id": "BR-TRA-24",
+      "task_id": "M-TRC-24",
+      "corridor_id": "C104",
+      "requested_start": "13:00",
+      "requested_end": "14:30",
+      "requested_duration": 90,
+      "department": "Traction"
+    },
+    {
+      "block_request_id": "BR-TRA-25",
+      "task_id": "M-TRC-25",
+      "corridor_id": "C102",
+      "requested_start": "12:00",
+      "requested_end": "15:00",
+      "requested_duration": 180,
+      "department": "Traction"
+    }
+  ],
+  "coa": [
+    {
+      "corridor_id": "C101",
+      "date": "2026-09-01",
+      "available_start": "13:00",
+      "available_end": "16:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C102",
+      "date": "2026-09-01",
+      "available_start": "08:00",
+      "available_end": "12:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C102",
+      "date": "2026-09-01",
+      "available_start": "13:00",
+      "available_end": "17:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C102",
+      "date": "2026-09-02",
+      "available_start": "08:00",
+      "available_end": "12:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C102",
+      "date": "2026-09-02",
+      "available_start": "13:00",
+      "available_end": "17:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C103",
+      "date": "2026-09-01",
+      "available_start": "08:00",
+      "available_end": "12:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C103",
+      "date": "2026-09-01",
+      "available_start": "13:00",
+      "available_end": "17:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C103",
+      "date": "2026-09-02",
+      "available_start": "08:00",
+      "available_end": "12:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C103",
+      "date": "2026-09-02",
+      "available_start": "13:00",
+      "available_end": "17:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C104",
+      "date": "2026-09-01",
+      "available_start": "08:00",
+      "available_end": "12:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C104",
+      "date": "2026-09-01",
+      "available_start": "13:00",
+      "available_end": "17:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C104",
+      "date": "2026-09-02",
+      "available_start": "08:00",
+      "available_end": "12:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C104",
+      "date": "2026-09-02",
+      "available_start": "13:00",
+      "available_end": "17:00",
+      "status": "Available"
+    },
+    {
+      "corridor_id": "C101",
+      "date": "2026-09-02",
+      "available_start": "09:00",
+      "available_end": "14:00",
+      "status": "Available"
+    }
+  ],
+  "timetable": [
+    {
+      "train_id": "P101",
+      "train_type": "Express Passenger",
+      "corridor_id": "C101",
+      "arrival_time": "10:30",
+      "departure_time": "11:00"
+    },
+    {
+      "train_id": "P102",
+      "train_type": "Express",
+      "corridor_id": "C102",
+      "arrival_time": "07:00",
+      "departure_time": "07:30"
+    },
+    {
+      "train_id": "P103",
+      "train_type": "Express",
+      "corridor_id": "C102",
+      "arrival_time": "09:00",
+      "departure_time": "09:30"
+    },
+    {
+      "train_id": "P104",
+      "train_type": "Express",
+      "corridor_id": "C102",
+      "arrival_time": "13:00",
+      "departure_time": "13:30"
+    },
+    {
+      "train_id": "P105",
+      "train_type": "Express",
+      "corridor_id": "C102",
+      "arrival_time": "15:00",
+      "departure_time": "15:30"
+    },
+    {
+      "train_id": "P106",
+      "train_type": "Express",
+      "corridor_id": "C102",
+      "arrival_time": "17:00",
+      "departure_time": "17:30"
+    },
+    {
+      "train_id": "P107",
+      "train_type": "Express",
+      "corridor_id": "C103",
+      "arrival_time": "07:00",
+      "departure_time": "07:30"
+    },
+    {
+      "train_id": "P108",
+      "train_type": "Express",
+      "corridor_id": "C103",
+      "arrival_time": "09:00",
+      "departure_time": "09:30"
+    },
+    {
+      "train_id": "P109",
+      "train_type": "Express",
+      "corridor_id": "C103",
+      "arrival_time": "13:00",
+      "departure_time": "13:30"
+    },
+    {
+      "train_id": "P110",
+      "train_type": "Express",
+      "corridor_id": "C103",
+      "arrival_time": "15:00",
+      "departure_time": "15:30"
+    },
+    {
+      "train_id": "P111",
+      "train_type": "Express",
+      "corridor_id": "C103",
+      "arrival_time": "17:00",
+      "departure_time": "17:30"
+    },
+    {
+      "train_id": "P112",
+      "train_type": "Express",
+      "corridor_id": "C104",
+      "arrival_time": "07:00",
+      "departure_time": "07:30"
+    },
+    {
+      "train_id": "P113",
+      "train_type": "Express",
+      "corridor_id": "C104",
+      "arrival_time": "09:00",
+      "departure_time": "09:30"
+    },
+    {
+      "train_id": "P114",
+      "train_type": "Express",
+      "corridor_id": "C104",
+      "arrival_time": "13:00",
+      "departure_time": "13:30"
+    },
+    {
+      "train_id": "P115",
+      "train_type": "Express",
+      "corridor_id": "C104",
+      "arrival_time": "15:00",
+      "departure_time": "15:30"
+    },
+    {
+      "train_id": "P116",
+      "train_type": "Express",
+      "corridor_id": "C104",
+      "arrival_time": "17:00",
+      "departure_time": "17:30"
+    }
+  ],
+  "goods_forecast": [
+    {
+      "train_id": "G201",
+      "train_type": "Freight",
+      "corridor_id": "C101",
+      "expected_start": "12:00",
+      "expected_end": "12:30",
+      "probability": 0.95
+    },
+    {
+      "train_id": "G202",
+      "train_type": "Freight",
+      "corridor_id": "C102",
+      "expected_start": "08:15",
+      "expected_end": "08:45",
+      "probability": 0.79
+    },
+    {
+      "train_id": "G203",
+      "train_type": "Freight",
+      "corridor_id": "C102",
+      "expected_start": "11:15",
+      "expected_end": "11:45",
+      "probability": 0.8
+    },
+    {
+      "train_id": "G204",
+      "train_type": "Freight",
+      "corridor_id": "C102",
+      "expected_start": "14:15",
+      "expected_end": "14:45",
+      "probability": 0.76
+    },
+    {
+      "train_id": "G205",
+      "train_type": "Freight",
+      "corridor_id": "C102",
+      "expected_start": "16:15",
+      "expected_end": "16:45",
+      "probability": 0.92
+    },
+    {
+      "train_id": "G206",
+      "train_type": "Freight",
+      "corridor_id": "C103",
+      "expected_start": "08:15",
+      "expected_end": "08:45",
+      "probability": 0.76
+    },
+    {
+      "train_id": "G207",
+      "train_type": "Freight",
+      "corridor_id": "C103",
+      "expected_start": "11:15",
+      "expected_end": "11:45",
+      "probability": 0.82
+    },
+    {
+      "train_id": "G208",
+      "train_type": "Freight",
+      "corridor_id": "C103",
+      "expected_start": "14:15",
+      "expected_end": "14:45",
+      "probability": 0.76
+    },
+    {
+      "train_id": "G209",
+      "train_type": "Freight",
+      "corridor_id": "C103",
+      "expected_start": "16:15",
+      "expected_end": "16:45",
+      "probability": 0.86
+    },
+    {
+      "train_id": "G210",
+      "train_type": "Freight",
+      "corridor_id": "C104",
+      "expected_start": "08:15",
+      "expected_end": "08:45",
+      "probability": 0.96
+    },
+    {
+      "train_id": "G211",
+      "train_type": "Freight",
+      "corridor_id": "C104",
+      "expected_start": "11:15",
+      "expected_end": "11:45",
+      "probability": 0.87
+    },
+    {
+      "train_id": "G212",
+      "train_type": "Freight",
+      "corridor_id": "C104",
+      "expected_start": "14:15",
+      "expected_end": "14:45",
+      "probability": 0.76
+    },
+    {
+      "train_id": "G213",
+      "train_type": "Freight",
+      "corridor_id": "C104",
+      "expected_start": "16:15",
+      "expected_end": "16:45",
+      "probability": 0.87
+    }
+  ]
+}
